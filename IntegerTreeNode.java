@@ -136,20 +136,14 @@ public class IntegerTreeNode{
 		output += this.value;
 		if(this.left != null)
 		{
-			output = output + "L[" + this.left.ToString() + "]";
+			output = output + "[" + this.left.ToString() + "]";
 		}
-		else
-		{
-			output = output + "L[]";
-		}
+
 		if(this.right != null)
 		{
-			output = output + "R[" + this.right.ToString() + "]";
+			output = output + "[" + this.right.ToString() + "]";
 		}
-		else
-		{
-			output = output + "R[]";
-		}
+
 		return output;
 	}
 }
